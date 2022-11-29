@@ -29,8 +29,8 @@ const LoginPage: FC = () => {
               })}
               <p className='text-white mt-2'>Stay secured.</p>
               <p className='text-white mt-2'>
-                In 2022, aproximately $28,740,000 has been stolen by business
-                imposters.
+                In 2022, aproximately <span className='underline decoration-slate-300 decoration-1'>$28.740.000</span> has been stolen by business
+                imposters
               </p>
               <div className='absolute bottom-0 top-0 left-0 right-0 bg-white opacity-20 z-0'></div>
             </div>
