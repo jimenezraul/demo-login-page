@@ -16,7 +16,6 @@ const GoogleLoginButton = ({ setErrors }: GoogleLoginProps) => {
       useOneTap
       size='large'
       text='signin_with'
-      theme='filled_blue'
     />
   );
 };

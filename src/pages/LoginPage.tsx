@@ -20,7 +20,7 @@ const LoginPage: FC = () => {
                   <h1
                     key={index}
                     className={`text-4xl text-white font-roboto lg:tracking-widest ${
-                      index === 3 ? 'text-black' : ''
+                      index === 3 ? 'z-50 text-black' : ''
                     }`}
                   >
                     {title}
@@ -32,7 +32,7 @@ const LoginPage: FC = () => {
                 In 2022, aproximately $28,740,000 has been stolen by business
                 imposters.
               </p>
-              <div className='absolute bottom-0 top-0 left-0 right-0 bg-white opacity-20'></div>
+              <div className='absolute bottom-0 top-0 left-0 right-0 bg-white opacity-20 z-0'></div>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ const LoginPage: FC = () => {
           <div className='w-full md:max-w-xl p-14'>
             <h1 className='text-4xl font-roboto'>Sign In</h1>
             <p className='text-gray-500 mt-2'>
-              Welcome back! please enter your details.
+              Welcome back! Please enter your details.
             </p>
             <form className='overflow-auto mt-5'>
               <div className='mb-4'>
@@ -64,7 +64,7 @@ const LoginPage: FC = () => {
                 })}
                 <div className='text-red-500 text-xs'>{errors}</div>
                 <div className='flex justify-end items-center'>
-                  <Link to='#' className='text-[#B44991]'>
+                  <Link to='#' className='font-bold text-[#D657A9]'>
                     Forgot Password?
                   </Link>
                 </div>
@@ -86,7 +86,7 @@ const LoginPage: FC = () => {
                 <div className='flex justify-center items-center w-full mt-5'>
                   <p className='text-gray-500'>
                     Are you a new user?{' '}
-                    <Link to='#' className='text-[#B44991]'>
+                    <Link to='#' className='font-bold text-[#D657A9]'>
                       Create an account
                     </Link>
                   </p>
